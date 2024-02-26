@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(198, 200, 201);
+    color: black
+   
+}
+
+html {
+    font-family: Impact, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+
+    max-width: 1120px;
+    margin: auto;
+    padding: 1rem 8rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.part-superior {
+    background: rgb(183, 183, 255);
+}
+
+
+.logo > img {
+    border-radius: 20rem;
+    width: 10rem;
+    mix-blend-mode: multiply;
+
+
+    
+}
+
+.nome-barbearia {
+
+    font-family: Inter;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+    white-space: nowrap;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-family: Inter;
+
+}
+
+.menu a {
+    color:black;
+    background-color: transparent;
+    padding: 0.5rem;
+    
+}
+
+.menu a:hover {
+    background-color: royalblue;
+    color: white;
+    border-bottom: 0.4rem solid red;
+    border-radius: 10%;
+
+}
+
+.descricao {
+    font-family: Inter;
+    color: rgb(105, 100, 100);
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-size: 1rem;
+}
+
+
+hr {
+    border-color: rgb(255, 17, 0);
+
+}
+
+.corpo-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+
+.text-principal {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.foto-principal{
+
+    justify-content: center;
+    display: flex;
+}
+
+.foto-principal > img {
+    max-width: 50%;
+    margin-top: 0rem;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: multiply;
+    
+    
+
+
+}
+
+.text1 {
+    color:black;
+    margin-left: 0.5rem;
+    
+}
+
+.text-segundo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.foto-segunda {
+
+    justify-content: center;
+    display: flex;
+}
+
+.foto-segunda > img {
+    max-width: 50%;
+    margin-top: 0rem;
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.text2 {
+    color:black;
+    text-align: center;
+    margin-left: 0.5rem;
+    
+
+}
+
+.text-terceiro {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+.text3 {
+    color:black;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgb(183, 183, 255);
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color:  rgb(105, 100, 100);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+.textPrincipal{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+
+}
+
+.text-1 {
+    color:black;
+    margin-left: 0.5rem;
+    
+}
+
+.textSegundo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.text-2 {
+    color:black;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding: 2rem;
+}
+
+
+.foto-servico {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.foto-servico > img {
+    max-width: 20%;
+    margin-top: 0rem;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: multiply;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.servicos-geral{
+    display: block;
+    text-align: center;
+}
+
+.servicos1 {
+    margin-top: 0rem;
+    margin-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    padding: 2rem;
+}
+
+.servicos2 {
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    padding: 2rem;
+}
+
+.servicos3 {
+    margin-top: 0rem;
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    padding: 2rem;
+}
+
+.formulario {
+    text-align: center;
+    padding: 3rem;
+    
+
+}
+
+.titulo1 {
+    font-family: Inter;
+    padding: 1rem;
+    font-size: 1.5rem;
+    
+
+}
+
+.titulo2 {
+    font-family: Inter;
+    padding: 1rem;
+    
+}
+
+.container_form {
+    font-family: Inter;
+    padding: 1rem;
+}
+
+.form_grupo {
+    padding: 0.2rem;
+    
+}
+
+.radio-btn {
+    padding: 0.2rem;
+}
+
+.check-btn {
+    padding: 0.2rem;
+}
+
+.form_message {
+    padding: 0.2rem;
+}
+
+
+.submit {
+    padding: 1rem;
+    
+    
+}
+
+
+.whatsapp-link {
+
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 2.5rem;
+    right: 2.5rem;
+    background-color: #25d366;
+    color: white;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    box-shadow: 0rem 0rem 0.1rem #888;
+    z-index: 1;
+
+    }
+    
+    .fa-whatsapp {
+        margin-top: 1rem;
+    }
+
+    .instagram-link {
+    background: radial-gradient(
+        circle at 33% 100%,
+        #fed373 4%,
+        #f15245 30%,
+        #d92e7f 62%,
+        #9b36b7 85%,
+        #515edf
+    );
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 8rem;
+    right: 2.5rem;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 1;
+    margin: auto;
+    
+
+    }
+
+    .fa-instagram {
+        margin-top: 0;
+    }
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
